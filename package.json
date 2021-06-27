@@ -1,0 +1,26 @@
+{
+  "name": "zentalk-web",
+  "version": "1.0.0",
+  "node": "8.1.4",
+  "license": "MIT",
+  "author": "Zentachain",
+  "description": "Encrypted chat application.",
+  "main": "app.js",
+  "engines": {
+    "node": ">=7.6"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "libp2p": "^0.26.2",
+    "socket.io": "2.0.3",
+    "socket.io-client": "^2.3.0",
+    "socketio-file-upload": "^0.7.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "Zentalk"
+  ]
+}
